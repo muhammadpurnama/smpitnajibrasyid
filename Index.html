@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="id" class="h-full-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Sekolah - SMP IT Najib Rasyid</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .font-heading {
+        font-family: "Playfair Display", serif;
+      }
+      .font-body {
+        font-family: "Source Sans 3", sans-serif;
+      }
+      body {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body class="h-full font-body bg-slate-50">
+    <div id="app" class="h-full w-full overflow-auto">
+      <!-- Menu Navigasi -->
+      <nav
+        class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200 shadow-sm"
+      >
+        <div
+          class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center"
+        >
+          <div
+            class="font-heading font-bold text-blue-900 text-xl flex items-center gap-2"
+          >
+            <img
+              src="https://raw.githubusercontent.com/raizel75/raizel75/3a6812c1e7b78f72bea323eb4a7118867e445b3d/Logo%20SMP%20IT.png"
+              alt="Logo SMP IT"
+              class="w-8 h-8 object-contain"
+            />
+            SMP IT Najib Rasyid
+          </div>
+          <!-- Menu Desktop -->
+          <div
+            class="hidden md:flex gap-6 text-sm font-semibold text-slate-600"
+          >
+            <a href="#profil" class="hover:text-blue-700 transition-colors"
+              >Profil</a
+            >
+            <a href="#visi-misi" class="hover:text-blue-700 transition-colors"
+              >Visi & Misi</a
+            >
+            <a href="#akreditasi" class="hover:text-blue-700 transition-colors"
+              >Akreditasi</a
+            >
+            <a href="#kontak" class="hover:text-blue-700 transition-colors"
+              >Kontak</a
+            >
+          </div>
+          <!-- Menu Mobile Toggle (Opsional jika ingin dikembangkan) -->
+          <div class="md:hidden text-blue-900">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <header
+        id="profil"
+        class="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 px-6 text-center overflow-hidden shadow-md"
+      >
+        <!-- Decorative Background Circles -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+          <div
+            class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"
+          ></div>
+          <div
+            class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/3 translate-y-1/3"
+          ></div>
+        </div>
+
+        <!-- Header Content -->
+        <div class="relative z-10 animate-fade-in-up">
+          <div
+            class="w-24 h-24 mx-auto mb-4 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-white/30 p-1"
+          >
+            <img
+              src="https://raw.githubusercontent.com/raizel75/raizel75/3a6812c1e7b78f72bea323eb4a7118867e445b3d/Logo%20SMP%20IT.png"
+              alt="Logo SMP IT"
+              class="w-full h-full object-contain"
+            />
+          </div>
+          <h1 class="font-heading text-3xl md:text-5xl mb-3 tracking-wide">
+            SMP IT Najib Rasyid
+          </h1>
+          <p
+            class="text-blue-200 text-lg md:text-xl font-medium tracking-wider uppercase"
+          >
+            Profil & Informasi Sekolah
+          </p>
+        </div>
+      </header>
+
+      <!-- Content Grid -->
+      <main
+        class="max-w-5xl mx-auto px-6 py-12 grid gap-6 md:gap-8 md:grid-cols-2"
+      >
+        <!-- Profil (Full Width) -->
+        <div
+          class="bg-white rounded-2xl p-8 shadow-sm border border-blue-100 hover:shadow-md transition-shadow md:col-span-2"
+        >
+          <div
+            class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+          >
+            <i data-lucide="building" class="w-6 h-6 text-blue-700"></i>
+          </div>
+          <h2 class="font-heading text-2xl text-blue-900 mb-3">
+            Profil Sekolah
+          </h2>
+          <p class="text-slate-600 leading-relaxed text-lg">
+            SMP IT Najib Rasyid adalah institusi pendidikan menengah pertama
+            yang memadukan kurikulum nasional dengan nilai-nilai Islami. Kami
+            berkomitmen penuh dalam menyelenggarakan pendidikan berkualitas
+            untuk mencetak generasi pemimpin masa depan yang unggul,
+            berprestasi, dan berakhlakul karimah.
+          </p>
+        </div>
+
+        <!-- Visi -->
+        <div
+          id="visi-misi"
+          class="bg-white rounded-2xl p-8 shadow-sm border border-blue-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+          >
+            <i data-lucide="eye" class="w-6 h-6 text-blue-700"></i>
+          </div>
+          <h2 class="font-heading text-xl text-blue-900 mb-3">Visi</h2>
+          <p class="text-slate-600 leading-relaxed font-medium text-lg">
+            "Menjadi sekolah yang mencetak generasi unggul dan berprestasi yang
+            berakhlakul karimah"
+          </p>
+        </div>
+
+        <!-- Misi -->
+        <div
+          class="bg-white rounded-2xl p-8 shadow-sm border border-blue-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+          >
+            <i data-lucide="target" class="w-6 h-6 text-blue-700"></i>
+          </div>
+          <h2 class="font-heading text-xl text-blue-900 mb-4">Misi</h2>
+          <ul
+            class="text-slate-600 leading-relaxed list-disc list-outside ml-4 space-y-3"
+          >
+            <li>
+              Menyelenggarakan proses pembelajaran yang berbasis pengajaran
+              islami dan teknologi guna mengembangkan potensi siswa.
+            </li>
+            <li>
+              Mengarahkan siswa dengan mengoptimalkan potensi, minat dan bakat
+              siswa agar menjadi generasi yang unggul dan berprestasi.
+            </li>
+            <li>Mengembangkan sarana dan prasarana penunjang pembelajaran.</li>
+            <li>
+              Menanamkan sikap terpuji pada siswa sejak dini, baik di lingkungan
+              sekolah ataupun di lingkungan masyarakat.
+            </li>
+            <li>
+              Membiasakan siswa dengan kegiatan-kegiatan yang baik dalam
+              berbagai bidang.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Motto -->
+        <div
+          class="bg-white rounded-2xl p-8 shadow-sm border border-blue-100 hover:shadow-md transition-shadow"
+        >
+          <div
+            class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+          >
+            <i data-lucide="quote" class="w-6 h-6 text-blue-700"></i>
+          </div>
+          <h2 class="font-heading text-xl text-blue-900 mb-3">Motto</h2>
+          <p
+            class="text-slate-700 leading-relaxed text-xl font-semibold italic mt-4"
+          >
+            "Islami, Berprestasi, dan Berakhlak Terpuji"
+          </p>
+        </div>
+
+        <!-- Akreditasi -->
+        <div
+          id="akreditasi"
+          class="bg-white rounded-2xl p-8 shadow-sm border border-blue-100 hover:shadow-md transition-shadow flex flex-col justify-center"
+        >
+          <div
+            class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+          >
+            <i data-lucide="award" class="w-6 h-6 text-blue-700"></i>
+          </div>
+          <h2 class="font-heading text-xl text-blue-900 mb-4">
+            Status Akreditasi
+          </h2>
+          <div class="flex items-center gap-4 mt-2">
+            <div
+              class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center border-4 border-blue-100"
+            >
+              <span
+                class="text-4xl font-heading text-blue-700 font-black tracking-tighter"
+                >A</span
+              >
+            </div>
+            <div class="flex flex-col">
+              <span class="text-blue-900 font-bold text-lg"
+                >Terakreditasi Unggul</span
+              >
+              <span class="text-slate-500 text-sm">Oleh BAN-S/M Nasional</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer / Kontak -->
+      <footer id="kontak" class="bg-slate-900 text-slate-300 py-12 mt-8">
+        <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-8">
+          <!-- Alamat -->
+          <div>
+            <h4 class="font-semibold text-white mb-6 text-lg">Alamat</h4>
+            <div class="text-slate-400 space-y-1 text-sm leading-relaxed mb-4">
+              <p>Dusun Kliwon, Blok Ciparay, RT 8 / RW 2</p>
+              <p>Desa Paninggaran, Kec. Darma</p>
+              <p>Kab. Kuningan, Provinsi Jawa Barat</p>
+              <p>Kode POS 45562</p>
+            </div>
+            <a
+              href="https://maps.app.goo.gl/1fMWTzfLxUrKUdhn7"
+              target="_blank"
+              class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm py-2 px-4 rounded-lg transition-colors"
+            >
+              <i data-lucide="map-pin" class="w-4 h-4"></i>
+              Buka di Google Maps
+            </a>
+          </div>
+
+          <!-- Sosial Media & Kontak -->
+          <div>
+            <h4 class="font-semibold text-white mb-6 text-lg">Hubungi Kami</h4>
+            <div class="space-y-4">
+              <!-- Instagram -->
+              <a
+                href="https://www.instagram.com/smpitnajibrasyid_official/"
+                target="_blank"
+                class="flex items-center gap-4 hover:text-white transition-colors group"
+              >
+                <div
+                  class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center group-hover:bg-pink-600 transition-colors"
+                >
+                  <i data-lucide="instagram" class="w-5 h-5"></i>
+                </div>
+                <span>smpitnajibrasyid_official</span>
+              </a>
+
+              <!-- YouTube -->
+              <a
+                href="https://www.youtube.com/@smpitnajibrasyidofficial"
+                target="_blank"
+                class="flex items-center gap-4 hover:text-white transition-colors group"
+              >
+                <div
+                  class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center group-hover:bg-red-600 transition-colors"
+                >
+                  <i data-lucide="youtube" class="w-5 h-5"></i>
+                </div>
+                <span>@smpitnajibrasyidofficial</span>
+              </a>
+
+              <!-- Email -->
+              <a
+                href="mailto:smpit.najibrasyid@gmail.com"
+                class="flex items-center gap-4 hover:text-white transition-colors group"
+              >
+                <div
+                  class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center group-hover:bg-blue-600 transition-colors"
+                >
+                  <i data-lucide="mail" class="w-5 h-5"></i>
+                </div>
+                <span>smpit.najibrasyid@gmail.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div
+          class="text-center py-6 text-sm border-t border-slate-800 mt-12 text-slate-500"
+        >
+          &copy; 2026 SMP IT Najib Rasyid. All rights reserved.
+        </div>
+      </footer>
+    </div>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
